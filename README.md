@@ -21,7 +21,7 @@ See also [Flickr API Documentation](https://www.flickr.com/services/api/) for mo
 | photo_description | text             | Additional description of the photo                                                                                        |
 | photoid           | bigint           | Unique identifier of the photo                                                                                             |
 | photourl          | text             | Link to photo                                                                                                              |
-| license           | smallint         | Photo license. Explanation of codes in Flickr API: https://www.flickr.com/services/api/flickr.photos.licenses.getInfo.html |
+| license           | smallint         | Photo license. See explanation of codes in [Flickr API](https://www.flickr.com/services/api/flickr.photos.licenses.getInfo.html) |
 | lat               | double precision | Latitude (decimal degrees)                                                                                                 |
 | lon               | double precision | Longitude (decimal degrees)                                                                                                |
 | geom              | geometry         | PostGIS geometry object in EWKB format                                                                                     |
