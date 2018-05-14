@@ -61,3 +61,25 @@ See also [Flickr API Documentation](https://www.flickr.com/services/api/) for mo
 | comm_user      | text             | List of commenting userids                               |
 
 
+### Twitter 
+
+
+
+| column_name    | data_type                   | Description                            |
+|----------------|-----------------------------|----------------------------------------|
+| id             | integer                     | Database identifier                    |
+| userid         | bigint                      | Unique identifier for user             |
+| description    | text                        | User profile description               |
+| time_local     | timestamp without time zone | timestamp                              |
+| text           | text                        | Tweet text                             |
+| lat            | double precision            | Latitude (decimal degrees)             |
+| lon            | double precision            | Longitude (decimal degrees)            |
+| geom           | geometry                    | PostGIS geometry object in EWKB format |
+| reply_to_tweet | bigint                      | Tweet id: Reply to tweet               |
+| reply_to_user  | bigint                      | Userid: Reply to user                  |
+| followers_cnt  | integer                     | Number of followers                    |
+| tweets_cnt     | integer                     | int4                                   |
+| timezone       | text                        | Timezone                               |
+| user_location  | text                        | User's self-reported home location     |
+| twitter_lang   | text                        | Language                               |
+
