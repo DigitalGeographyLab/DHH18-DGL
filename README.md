@@ -1,6 +1,6 @@
 # Datasets for the Helsinki Digital Humanities Hackathon 2018
 
-This repository describes the datasets provided by the Digital Geography Lab for the Helsinki Digital Humanities Hackathon 2018.
+This repository describes the datasets provided by the Digital Geography Lab for the [Helsinki Digital Humanities Hackathon 2018](https://www.helsinki.fi/en/helsinki-centre-for-digital-humanities/helsinki-digital-humanities-hackathon-2018-dhh18).
 
 The datasets come from three different social media platforms: Flickr, Instagram and Twitter. The column names and their descriptions for each dataset are provided below.
 
