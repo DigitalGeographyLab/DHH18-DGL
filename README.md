@@ -1,12 +1,10 @@
-# DigitalHumanitiesHack2018
-Description of the Digital Humanities Hackathon datasets 
+# Datasets for the Helsinki Digital Humanities Hackathon 2018
 
-- Flickr
-- Instagram
-- Twitter
+This repository describes the datasets provided by the Digital Geography Lab for the Helsinki Digital Humanities Hackathon 2018.
 
+The datasets come from three different social media platforms: Flickr, Instagram and Twitter. The column names and their descriptions for each dataset are provided below.
 
-### Flickr Data
+### Flickr
 
 See also [Flickr API Documentation](https://www.flickr.com/services/api/) for more details. 
 
@@ -34,10 +32,7 @@ See also [Flickr API Documentation](https://www.flickr.com/services/api/) for mo
 | comm_user         | text             | List of commenting userids                                                                                                 |
 | flickr_lang       | character        | Language of the Flickr profile                                                                                             |
 
-
-
-
-### Instagram Data
+### Instagram
 
 | column_name    | data_type        | Description                                              |
 |----------------|------------------|----------------------------------------------------------|
@@ -63,8 +58,6 @@ See also [Flickr API Documentation](https://www.flickr.com/services/api/) for mo
 
 ### Twitter 
 
-
-
 | column_name    | data_type                   | Description                            |
 |----------------|-----------------------------|----------------------------------------|
 | id             | integer                     | Database identifier                    |
@@ -82,4 +75,3 @@ See also [Flickr API Documentation](https://www.flickr.com/services/api/) for mo
 | timezone       | text                        | Timezone                               |
 | user_location  | text                        | User's self-reported home location     |
 | twitter_lang   | text                        | Language                               |
-
