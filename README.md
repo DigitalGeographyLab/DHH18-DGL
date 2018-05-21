@@ -86,7 +86,7 @@ Check out [tweepy](http://tweepy.readthedocs.io/en/v3.5.0/) and [Twitter API doc
 | reply_to_tweet | bigint                      | Tweet id: Reply to tweet               |
 | reply_to_user  | bigint                      | Userid: Reply to user                  |
 | followers_cnt  | integer                     | Number of followers                    |
-| tweets_cnt     | integer                     | int4                                   |
+| tweets_cnt     | integer                     | Number of tweets per user in total     |
 | timezone       | text                        | Timezone                               |
 | user_location  | text                        | User's self-reported home location     |
 | twitter_lang   | text                        | Language                               |
