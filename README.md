@@ -2,11 +2,22 @@
 
 This repository describes the datasets provided by the Digital Geography Lab for the [Helsinki Digital Humanities Hackathon 2018](https://www.helsinki.fi/en/helsinki-centre-for-digital-humanities/helsinki-digital-humanities-hackathon-2018-dhh18).
 
-The datasets come from three different social media platforms: Flickr, Instagram and Twitter. The column names and their descriptions for each dataset are provided below.
+The datasets come from three different social media platforms: Flickr, Instagram and Twitter. 
+
+|Name |Number of records  |Number of users|Temporal extent |Spatial extent|
+|-----------|------------------|-------------|--------------|--------------|
+|Flickr            |126017        |2701     |01 JAN 2014 – 07 OCT 2017 |Helsinki Region |
+|Instagram|1316705    |207329|01 JUN 2014 – 31 MAR 2016 | Helsinki Region|
+|Twitter        |61338            |9260    |17 FEB 2016  – 02 MAR 2018|Helsinki Municipality |
+
+
+
+
+The column names and their descriptions for each dataset are provided below.
 
 ### Flickr
 
-See also [Flickr API Documentation](https://www.flickr.com/services/api/) for more details. 
+See also [Flickr API Documentation](https://www.flickr.com/services/api/) for more details. Data has been collected in autumn 2017.
 
 
 | column_name       | data_type        | Description                                                                                                                |
@@ -34,6 +45,8 @@ See also [Flickr API Documentation](https://www.flickr.com/services/api/) for mo
 
 ### Instagram
 
+See also [Instagram API Documentaion](https://www.instagram.com/developer/endpoints/) for more details. Data has been collected in spring 2016.
+
 | column_name    | data_type        | Description                                              |
 |----------------|------------------|----------------------------------------------------------|
 | id             | integer          | Database identifier                                      |
@@ -57,6 +70,8 @@ See also [Flickr API Documentation](https://www.flickr.com/services/api/) for mo
 
 
 ### Twitter 
+
+Check out [tweepy](http://tweepy.readthedocs.io/en/v3.5.0/) and [Twitter API documentation](https://developer.twitter.com/en/docs/api-reference-index)for more details. Data has been continuously collected until 02 MAR 2018. 
 
 | column_name    | data_type                   | Description                            |
 |----------------|-----------------------------|----------------------------------------|
