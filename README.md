@@ -1,6 +1,6 @@
-# Datasets for the Helsinki Digital Humanities Hackathon 2018
+# Social media data from Helsinki
 
-This repository describes the datasets provided by the Digital Geography Lab for the [Helsinki Digital Humanities Hackathon 2018](https://www.helsinki.fi/en/helsinki-centre-for-digital-humanities/helsinki-digital-humanities-hackathon-2018-dhh18).
+This repository describes the datasets provided by the Digital Geography Lab for the [Helsinki Digital Humanities Hackathon 2018](https://www.helsinki.fi/en/helsinki-centre-for-digital-humanities/helsinki-digital-humanities-hackathon-2018-dhh18), and [the introduction to advanced geoinformatics course 2019](https://courses.helsinki.fi/fi/geog-g301). 
 
 The datasets come from three different social media platforms: Flickr, Instagram and Twitter. 
 
@@ -11,9 +11,9 @@ The datasets come from three different social media platforms: Flickr, Instagram
 |Twitter        |61338            |9260    |17 FEB 2016  – 02 MAR 2018|Helsinki Municipality |
 
 
+The data have been collected usingcustom python-tools into a postgreSQL/PostGIS database. For methods, see [Tenkanen et al. 2017](https://www.nature.com/articles/s41598-017-18007-4). Data sets described in this repository have been subset to the Helsinki Region. In the digital humanities hackathon, the data were provided in EPSG:4326 projection. For the introduction to advanced GIS course, the data have been projected from EPSG:4326 to EPSG:3879 coordinate reference system following [this documentation](https://github.com/csc-training/geocomputing/blob/master/pouta/postgis/basic_postgis_management.md#spatial-data-management). Columns containing usernames have been removed.
 
-
-The column names and their descriptions for each dataset are provided below.
+The column names and their descriptions for each dataset are provided below. Columns containing usernames have been removed.
 
 ### Flickr
 
